@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef;
+}
+
+main{
+    width: 70;
+    padding: 50px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo{
+    width: calc(50% - 200px);
+    height: calc((35vw - 200px) / 16 * 9);
+    margin: 50px;
+    background-color: orange;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+
+.photo1{
+    background-image: url(https://gamepleton.com/wp-content/uploads/2021/06/karambit-blue-gem-1-1024x576.png);
+}
+
+.photo2{
+    background-image: url(https://pbs.twimg.com/media/EGm2gWwXYAErBk1.jpg:large);
+}
+
+.photo3{
+    background-image: url(https://cslabez.com/wp-content/uploads/2023/02/AK-47-skin-Neon-Rider-1920x1080.jpg);
+}
+
+.photo4{
+    background-image: url(https://playerok.com/imgproxy/Vuz0XEIXREeVg78W5wgwQtyOwOr7fVe4fnuYTzXSToY/wm:0.8:soea:5:2:0.2/rs:fill:0:1000:0/g:no/quality:99/czM6Ly9wbGF5ZXJvay8vaW1hZ2VzLzFlZGYwODdiLTIwOTctNjk5MC1lODkyLWJmNDkwMGNlMTliOC5wbmc.jpg);
+}
+
+.photo5{
+    background-image: url(https://www.jaxon.gg/wp-content/uploads/2021/08/dlore.jpg);
+}
+
+.photo6{
+    background-image: url(https://pbs.twimg.com/amplify_video_thumb/1644406022889705472/img/KE5WvdC36mMf06Gy.jpg:large);
+}
+
+.photo7{
+    background-image: url(https://s-wiki.cs.money/wiki_9kUxBar_preview.png);
+}
+
+.photo8{
+    background-image: url(https://community.cloudflare.steamstatic.com/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DAQ1JmMR1osbaqPQJz7ODYfi9W9eOmgZKbm_LLPr7Vn35c18lwmO7Eu9ut2Fa1rUFtMmiiJdKWIFI5ZgmCqFe9kOy80Z7v7cnImHpkuSQqtHfD30vgHujwGg0/360fx360f);
+}
+
+.photo:hover{
+    transform: rotate(360deg) scale(1.3);
+}
